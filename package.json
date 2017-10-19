@@ -1,0 +1,14 @@
+{
+  "name": "balazshochzwei",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:balazs4/balazshochzwei.git",
+  "author": "balazs4 <balazs4web@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

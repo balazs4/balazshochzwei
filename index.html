@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <pre id="response"></pre>
+  <script>
+  fetch('/api/date/')
+  .then(x => {
+    console.log(x.headers);
+    return x.json();
+  })
+  .then(x =>{
+    console.log(x);
+    document.getElementById('response').innerHTML = JSON.stringify(x,null,2);
+  });
+  </script>
+</body>
+</html>
